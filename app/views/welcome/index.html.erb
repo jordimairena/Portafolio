@@ -1,0 +1,180 @@
+<%= stylesheet_link_tag "application" %>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+	body { 
+padding-top: 70px;
+font-family: sans-serif;
+background-color: #42a1f4;
+}
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+p {
+  font-size: 16px;
+  /*color a lo del footer*/
+  color: black; 
+}
+
+h2 {
+  padding: 30px 0;
+}
+
+a:hover, a:visited, a:link {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  padding: 40px 0;
+}
+
+.copyright {
+  text-aling: left;
+}
+
+.social-icons {
+    text-align: right;
+  }
+
+.tumbnails img {
+    height:200px;
+    width:100%;
+
+}
+
+.img-responsive img {
+    width: 150px;
+    height: 100px;
+}
+
+.big-icon {
+    font-size: 40px;
+    color:white;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .social-icons {
+    text-align: center;
+  }
+  .copyright {
+    text-align: center;
+  }
+}
+h1 {
+	color:black;
+}
+h2{
+	color:black;
+}
+
+</style>
+
+<!-- <h1 class="text-center ">About Me</h1> -->
+<nav class="navbar navbar-fixed-top navbar-default">
+  <div class="container-fluid">    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" >Jordi Mairena</a>
+    </div>    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+      	<li><a href="#about">About</a></li>        
+        <li><a href="#portfolio">Portfolio</a>
+        <li><a href="#contact">Contact</a></li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section id="about">
+  <div class="container-fluid">    
+     <h2 class="text-center">About Me</h2>
+  <p>Mi nombre es Jordi Mairena, tengo 22 años,  soy pasante de la carrera de Ingenieria en Sistemas Computacionales en la universidad UNITEC(Universidad Tecnologica Centroamericana en Honduras, actualmente curso el 4to año. Me gusta bastante lo que es programacion, mis fuertes en lenguajes de programacion son Java,c++ y aprendiendo lo que es programacion web.
+
+  En mis tiempos libres me gusta lo que es hacer deportes tal como futbol, tennis, tae kwon do y voleibol. Tambien estamos en el proceso de un proyecto con unos colegas que esperamos que se realice.  </p>
+    
+
+  </div>
+  <hr>
+</section>
+<section id="portfolio">
+  <div class="container-fluid">
+    <h2 class="text-center">Portfolio</h2>
+    <div class="row">    	
+      <a href="https://github.com/jordimairena/ahorcado" target="_blank" class="col-md-4 col-sm-6">
+       <div class="tumbnails">
+         <img src="https://ugc.kn3.net/i/origin/http://tvd.lifia.info.unlp.edu.ar/ginga.ar/images/apps/ahorcado.jpg" class="img-responsive " alt="Ahorcado" >
+         <div class="caption" color: white>
+           Ahorcado: es un juego de adivinanzas, programado en c++, la cual tiene varias categorias en la cual jugar.
+         </div>
+       </div> 
+      </a>
+      <a href="https://github.com/jordimairena/DB_Taller" target="_blank" class="col-md-4 col-sm-6">
+       <div class="tumbnails">
+         <img src="https://www.pruebaderuta.com/wp-content/uploads/2017/02/gestion-taller.jpg" alt="DB_Taller" class="img-responsive">
+         <div class="caption">
+           DB Taller: es un programa para una empresa de taller automovilistico en la cual tenia una base de datos creada en mysql.
+         </div>
+       </div> 
+      </a>
+      <a href="https://github.com/jordimairena/P3-Jordi-Miguel" target="_blank" class="col-md-4 col-sm-6">
+       <div class="tumbnails">
+         <img src="http://img.emol.com/2012/06/11/celulares_115938.jpg" alt="P3" alt="Grafos programados" class="img-responsive">
+         <div class="caption">
+           P3: es un proyecto en la cual se utilizo lo que es grafos, los grafos representaban unas antenas para comunicarse entre si.
+         </div>
+       </div> 
+      </a>         
+    </div>
+    <hr>
+    <div class="row">
+      <a href="https://github.com/jordimairena/Proyecto4" target="_blank" class="col-md-4 col-sm-6">
+       <div class="tumbnails">
+         <img src="https://study.com/cimages/multimages/16/dijkstra1.jpg" alt="Grafos usando dijkstra" class="img-responsive">
+         <div class="caption">
+           Dijkstra: es un proyecto en la cual se utilizo lo que es grafos, implementando la libreria dijkstra.
+         </div>
+       </div> 
+      </a>    
+      <a href="https://github.com/jordimairena/Baleadas" target="_blank" class="col-md-4 col-sm-6">
+       <div class="tumbnails">
+         <img src="http://latinoamericaexuberante.org/wp-content/uploads/2017/03/Baleada-800x500_c.jpg" alt="Baleadas Intergalacticas" class="img-responsive">
+         <div class="caption">
+           Baleadas Intergalacticas: es un proyecto en la cual trataba sobre una cocina espacial que cocinaban baleadas, utilizando la implementacion de colas.
+         </div>
+       </div> 
+      </a>  
+      <a href="https://github.com/jordimairena/Hacktegus" target="_blank" class="col-md-4 col-sm-6">
+       <div class="tumbnails">
+         <img src="https://scontent.ftgu2-1.fna.fbcdn.net/v/t1.0-9/20882769_461789984205656_1594677594560171357_n.jpg?oh=508d27679d11755fd80c9d083fbf3b60&oe=5AD8FA44" alt="A donde Comemos?" class="img-responsive">
+         <div class="caption">
+           Donde Comemos?: es un proyecto que estamos implementando para un futuro.
+         </div>
+       </div> 
+      </a>  
+
+    </div>
+  </div>
+</section>
+<footer id="contact" class="container-fluid">
+  <hr>
+  <div class="col-md-8">
+    <p class="copyright">Designed by Jordi Mairena</p>  
+  </div>
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/jordimairena/" target="_blank"><i class=" fa fa-github big-icon"></i></a>        
+        <a href="https://www.facebook.com/jordimairena95" target="_blank"><i class="fa fa-facebook big-icon"></i></a>
+      </div>
+    </div>
+</footer>
+
