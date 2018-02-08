@@ -33,5 +33,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do 
 #PosgreSQL for Heroku
-gem 'pg', '0.20.0'
+  gem 'pg', '0.20.0'
 end
